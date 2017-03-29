@@ -91,6 +91,9 @@ class ConvNet:
     def get_raw_output(self):
         return self.y_conv
     
+    def get_labels(self):
+        return self.y_
+    
 
 
     
